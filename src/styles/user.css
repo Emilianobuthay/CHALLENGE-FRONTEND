@@ -1,0 +1,218 @@
+.input{
+    color: #706f6f;
+}
+
+
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 18px 50px;
+    background-color: #4980cc;
+}
+.logos{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.img1{
+    width: 35px;
+    height: 35px;
+}
+.img2{
+width: auto;
+height: 35px;
+}
+.container-buscador{
+    position: relative;
+    width: 60%;
+}
+.input{
+    width: 100% !important;
+    z-index: 10;
+}
+.container-buscador img{
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    width: 20px;
+    z-index: 10000;
+    
+}
+.aaa{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.truee{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    background-color: #278e06;
+}
+.truee::after{
+    content: "En Movimiento";
+    position: relative;
+    left: 60px;
+   
+    display: inline;font-size: 18px;
+    font-weight: 100;
+
+}
+.falsee{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    background-color: #e13e5b;
+}
+.falsee::after{
+    content: "No Esta Movimiento";
+    position: relative;
+    left: 60px;
+    display: inline;font-size: 18px;
+    font-weight: 100;
+
+}
+.container-data{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 76%;
+}
+.container-title{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+}
+.container-title h1{
+    color: black;   
+    font-weight: 400;
+    font-size: 32px;
+}
+.container-title p{
+    color: rgb(179, 179, 179);   
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+.container-info-2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    border-top: 1px solid rgb(162, 162, 162);
+    padding: 0px 24px;
+}
+.container-50{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title-4container{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.text-4container{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 100;
+}
+.text-41container{
+    color: rgb(113, 187, 236);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    
+    font-weight: 100;
+}
+.container-bola-text{
+    display: flex;
+    flex-direction: row;
+}
+.margin-bola{
+    margin-right: 20px;
+}
+/* -------- */
+.container-info-3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid rgb(166, 166, 166);
+    margin-top: 20px;
+}
+.container-title-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(191, 191, 191);
+    font-size: 24px;
+    font-weight: bold;
+}
+.conatiner-2-divs-50{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 13px;
+}
+.container-50-3-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+}
+.container-50-3-right{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+
+}

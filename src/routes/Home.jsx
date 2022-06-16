@@ -6,6 +6,7 @@ import Name from '../assets/unimap_blanco.svg';
 import Lupa from '../assets/lupa.png';
 import '../efecto.js';
 import { get } from "../components/Axioss";
+import { gsapp } from "../efecto.js";
 
 export function Home(){
     const [searchParams, setSearchParams] = useSearchParams();
@@ -15,6 +16,8 @@ export function Home(){
     const handleFilter = (e) => {
         setSearchParams({ filter: e.target.value})
     }
+
+    
    
     useEffect(() => {
         get(`?q=${filter}`)
@@ -42,6 +45,7 @@ export function Home(){
         )
     }
 
+    //gsapp();                    //Descomentar para Activar una mini animacion del header...
      
     return(
         
